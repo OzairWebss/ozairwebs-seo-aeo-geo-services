@@ -1,5 +1,11 @@
 # Structured data and business entities
 
+![Entity agreement across source facts, visible pages, structured data, profiles and validation](../assets/entity-agreement.svg)
+
+> **Review note:** Syntax, truthful content and search-feature eligibility require separate checks.
+
+*Original conceptual map. The text below explains each decision; no performance or citation outcome is asserted.*
+
 Structured data describes information that a page actually presents. Start by identifying the subject and its owner, then decide which vocabulary is appropriate. Schema.org defines types and properties; Google's supported feature documentation defines eligibility for Google enhancements. These are related but different questions.
 
 ## A defensible modelling sequence

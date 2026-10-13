@@ -1,5 +1,11 @@
 # AI search visibility: access, evidence and observation
 
+![AI discovery boundaries separating search eligibility, useful sources, training preferences and user-requested retrieval](../assets/ai-discovery-boundaries.svg)
+
+> **Review note:** Decide search and training access separately, using current provider documentation.
+
+*Original conceptual map. The text below explains each decision; no performance or citation outcome is asserted.*
+
 AI discovery work should begin with ownership decisions and readable public information. This guide does not define an invented AI ranking formula. Google, OpenAI and other providers operate different systems; conclusions about one provider cannot establish how another selects sources.
 
 ## Separate access policies

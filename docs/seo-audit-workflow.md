@@ -1,5 +1,11 @@
 # SEO audit workflow: observation to verified fix
 
+![Audit workflow from scope and evidence through classification, implementation, retest and reporting](../assets/audit-evidence-loop.svg)
+
+> **Review note:** Close the finding after the deployed output is retested, not when the task is merely marked complete.
+
+*Original conceptual map. The text below explains each decision; no performance or citation outcome is asserted.*
+
 An actionable audit explains what is wrong, how the evidence supports that conclusion and what would prove the repair. An exported tool report alone rarely establishes those three points. Use a controlled sample before widening a crawl, and document access and rate limits.
 
 ## Define scope and capture a baseline
