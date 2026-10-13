@@ -2,11 +2,25 @@
 
 # SEO, AEO and GEO: Search Engineering Resources by OzairWebs
 
+![Conceptual 3D search engineering cover with readable documents, a magnifying lens, source evidence and connected entities](assets/search-engineering-3d-cover.png)
+
+*Conceptual illustration of discovery and information quality, not a ranking chart or search-platform endorsement.*
+
+> **Audit principle:** distinguish what the evidence proves from what a change is expected to improve. A useful recommendation includes an owner and a way to retest it.
+
 A useful search programme begins with a diagnosis: can customers find the right page, understand the offer, and complete the next step? This repository helps business owners and technical teams investigate those questions together. It includes a reusable audit checklist, measurement guidance, entity and structured-data decisions, and examples of changes that can be tested before a wider rollout.
 
 [OzairWebs SEO services](https://ozairwebs.com/seo/) covers the commercial service scope. The documents here are educational resources, usable without commissioning an engagement. They explain how to distinguish a discovery problem from a rendering fault, an unclear service page, or a broken conversion journey. Publishing more pages is seldom the first answer to all four.
 
 Reviewed on **13 October 2026**. Business statements are attributed to the official OzairWebs website. Technical explanations use primary references in [the source register](docs/references.md). Illustrative scenarios are design exercises, not client results. Search rankings, traffic, leads and AI citations are outside this repository's guarantees.
+
+## Make business facts agree
+
+![Entity agreement map connecting authoritative facts, visible content, structured data, genuine public profiles, validation and maintenance](assets/entity-agreement.svg)
+
+An entity model is useful when the content owner can maintain it. [Schema and entity guidance](docs/schema-and-entities.md) separates syntax, factual agreement and feature eligibility.
+
+> **Publication check:** a more elaborate schema cannot make an unsupported claim true. Start with visible facts and a source that the business can maintain.
 
 ## Start with the question you need to answer
 
@@ -18,6 +32,21 @@ Reviewed on **13 October 2026**. Business statements are attributed to the offic
 | Which structured data describes the business truthfully? | [Schema and entities](docs/schema-and-entities.md) |
 | How should reporting connect to business outcomes? | [Search Console and analytics](docs/search-console-and-analytics.md) |
 | What can a provider reasonably promise? | [SEO FAQ](docs/seo-faq.md) |
+
+## Visual audit: move from evidence to a decision
+
+![Six-stage audit map: scope, evidence, classification, ownership, deployed retest and reporting](assets/audit-evidence-loop.svg)
+
+Follow the top row from scope to classification, then the lower row from implementation to learning. The [audit workflow](docs/seo-audit-workflow.md) details what to record and how to close a finding.
+
+| Observable problem | Evidence to collect | A useful acceptance check |
+| --- | --- | --- |
+| A valuable page is hard to discover | Internal links, response status and crawl directives | The intended route is reachable and eligible under the agreed rules |
+| Several URLs compete as one page | Canonical output, redirects and duplicate templates | Deployed signals agree with the intended page identity |
+| Search information disagrees with the offer | Visible page, data source, markup and catalogue feed | The same current facts appear across the controlled surfaces |
+| A visitor cannot complete the next step | Form or purchase flow, error states and approved measurement | Representative successful and failed journeys behave as specified |
+
+These are diagnostic comparisons. They do not assign invented scores, positions or conversion rates.
 
 ## Who this resource is for
 
@@ -118,3 +147,6 @@ Discuss a specific problem through the [SEO service page](https://ozairwebs.com/
 For operational examples, read [local and commerce SEO](docs/local-and-commerce-seo.md): business identity, authentic reviews, catalogue ownership, facets and inventory consistency.
 
 Read the [published project context](docs/case-study-references.md), [source register](docs/references.md) and [reusable decision register](examples/README.md). Contributions should identify a specific correction and supporting evidence; see [contribution guidance](CONTRIBUTING.md). The [maintenance plan](MAINTENANCE.md) explains how versions and source changes are reviewed. Original documentation and CSV templates use [CC BY 4.0](LICENSE); the OzairWebs logo is excluded from that licence.
+
+
+[Visual sources, accessible alternatives and cover prompt](assets/README.md).
